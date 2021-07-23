@@ -1,17 +1,32 @@
 .ContactPage {
     height: 500px;
     width: 100%;
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     align-self: center;
+    
     .title{
         padding-left: 40px;
     }
-    .test{
-        height: 300px;
-        width: 300px;
-        display:block;
-        
+
+    .ImagePart{
+        float: left;
+        .test{
+            height: 400px;
+            width: 300px;
+            border: 5px;
+            border-color: black;   
+        }
     }
+
+    .TextPart{
+        float: left;
+        padding-inline-start: 30px;
+        .linkedin{
+            height: 60px;
+            width: 60px;   
+        }
+    }
+    
 
 }
